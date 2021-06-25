@@ -1,0 +1,51 @@
+body {
+    height: 100%;
+}
+a {
+    text-decoration: none;
+}
+
+.menuen {
+    font-weight: 700;
+}
+
+main {
+    height: 750px;
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 200px 0;
+    color: black;
+    text-align: center;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+.my-form{   
+   
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.my-form .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.login-form{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.login-form .row{
+    margin-left: 0;
+    margin-right: 0;
+}
